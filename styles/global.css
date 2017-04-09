@@ -135,7 +135,6 @@ a.mobile:active {
 @media only screen and (max-width: 500px) {
 	.sidebar {
 		width: 100%;
-		display: none;
 	}
 
 	.content {
@@ -149,13 +148,19 @@ a.mobile:active {
 	ul#nav li a:hover {
 		font-size: 20px;
 	}
+
+	a.mobile {
+		display: block;
+	}
 }
 
 @media only screen and (min-width: 501px) {
 	.sidebar {
+		display: none;
 		height: 100%;
 	}
 	a.mobile {
-		display: block;
+		display: none;
+
 	}
 }
