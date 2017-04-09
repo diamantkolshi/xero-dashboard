@@ -156,6 +156,6 @@ a.mobile:active {
 		height: 100%;
 	}
 	a.mobile {
-		display: none;
+		display: block;
 	}
 }
