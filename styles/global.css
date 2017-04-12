@@ -156,7 +156,7 @@ a.mobile:active {
 
 @media only screen and (min-width: 501px) {
 	.sidebar {
-		display: none;
+		display: block;
 		height: 100%;
 	}
 	a.mobile {
